@@ -68,6 +68,7 @@ elif [ "$NAME" == "Ubuntu" ]; then
     elif [ "$VERSION_CODENAME" == "bionic" ] || \
          [ "$VERSION_CODENAME" == "focal" ] || \
          [ "$VERSION_CODENAME" == "groovy" ] || \
+         [ "$VERSION_CODENAME" == "jammy" ] || \
          [ "$VERSION_CODENAME" == "hirsute" ]; then
         __install_deb_url $DEB_PKG
     else
